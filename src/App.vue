@@ -30,7 +30,7 @@
       <div class="relative col-start-7 row-start-4">
         <img
           class="absolute top-0 right-0 w-24 translate-x-1/2 -translate-y-1/2"
-          src="/img/dots.svg"
+          src="./img/dots.svg"
           alt=""
         />
         <div
@@ -43,10 +43,10 @@
       <div class="relative col-start-2 col-end-4 row-span-2 aspect-1/1">
         <img
           class="absolute left-0 bottom-24 -translate-x-1/2"
-          src="/img/dots.svg"
+          src="./img/dots.svg"
           alt=""
         />
-        <img class="relative" src="/img/avatar-1.png" alt="" />
+        <img class="relative" src="./img/avatar-1.png" alt="" />
       </div>
       <div class="col-span-2 col-start-5">
         <div
@@ -63,11 +63,11 @@
         <div class="bg-[#353535] aspect-1/1" />
       </div>
       <div class="col-start-5 aspect-1/1">
-        <img src="/img/avatar-2.png" alt="" />
+        <img src="./img/avatar-2.png" alt="" />
       </div>
       <div class="col-span-2 col-start-6">
         <div class="bg-[#353535] grid place-items-center aspect-2/1 relative">
-          <img src="/img/audio.svg" alt="" />
+          <img src="./img/audio.svg" alt="" />
           <div
             class="grid absolute right-0 bottom-0 place-items-center w-12 h-12 text-white bg-blue-600 cursor-pointer"
           >
@@ -81,7 +81,7 @@
       </div>
       <div class="col-start-4">
         <div class="relative aspect-1/1">
-          <img src="/img/avatar-3.png" alt="" />
+          <img src="./img/avatar-3.png" alt="" />
           <div
             class="grid absolute right-0 bottom-0 place-items-center w-12 h-12 text-gray-900 bg-white transition-colors cursor-pointer hover:bg-blue-600 hover:text-white"
           >
