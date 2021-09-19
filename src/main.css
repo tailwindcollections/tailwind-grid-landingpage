@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .aspect-1\/1 { 
+        aspect-ratio : 1 / 1;
+    }
+    .aspect-2\/1 { 
+        aspect-ratio : 2 / 1;
+    }
+}
