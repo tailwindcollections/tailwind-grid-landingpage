@@ -11,8 +11,14 @@
       </div>
       <ul class="grid grid-cols-4 col-span-4 col-start-4 items-center">
         <li v-for="item in menu">
-          <a href="#" class="text-[13px] uppercase tracking-widest text-white/80">
+          <a
+            href="#"
+            class="text-[13px] uppercase tracking-widest text-white/80 relative group"
+          >
             {{ item }}
+            <div
+              class="absolute w-full h-0.5 bg-white/80 scale-x-0 group-hover:scale-x-100 transition-transform"
+            />
           </a>
         </li>
       </ul>
