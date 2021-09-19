@@ -1,15 +1,15 @@
 <template>
   <div class="w-full min-h-screen font-sans bg-gray-900">
-    <div class="grid w-full grid-cols-8 pb-24">
-      <div class="col-start-2 py-10 place-items-center">
+    <div class="grid grid-cols-8 pb-24 w-full">
+      <div class="col-start-2 place-items-center py-10">
         <a
           href="#"
-          class="flex items-center justify-center w-12 h-12 text-xl text-gray-900 bg-white rounded-full"
+          class="flex justify-center items-center w-12 h-12 text-xl text-gray-900 bg-white rounded-full"
         >
           C
         </a>
       </div>
-      <ul class="grid items-center grid-cols-4 col-span-4 col-start-4">
+      <ul class="grid grid-cols-4 col-span-4 col-start-4 items-center">
         <li v-for="item in menu">
           <a href="#" class="text-[13px] uppercase tracking-widest text-white/80">
             {{ item }}
@@ -34,7 +34,7 @@
           alt=""
         />
         <div
-          class="flex flex-col justify-between px-7 py-8 text-gray-900 bg-[#FEBE02] aspect-1/1"
+          class="relative flex flex-col justify-between px-7 py-8 text-gray-900 bg-[#FEBE02] aspect-1/1"
         >
           <ArrowRightIcon class="w-5 h-5" />
           <span class="text-2xl font-semibold">Join The Class</span>
@@ -42,7 +42,7 @@
       </div>
       <div class="relative col-start-2 col-end-4 row-span-2 aspect-1/1">
         <img
-          class="absolute left-0 -translate-x-1/2 bottom-24"
+          class="absolute left-0 bottom-24 -translate-x-1/2"
           src="/img/dots.svg"
           alt=""
         />
@@ -69,7 +69,7 @@
         <div class="bg-[#353535] grid place-items-center aspect-2/1 relative">
           <img src="/img/audio.svg" alt="" />
           <div
-            class="absolute bottom-0 right-0 grid w-12 h-12 text-white bg-blue-600 cursor-pointer place-items-center"
+            class="grid absolute right-0 bottom-0 place-items-center w-12 h-12 text-white bg-blue-600 cursor-pointer"
           >
             <PlayIcon class="w-3 h-3 fill-current" />
           </div>
@@ -83,7 +83,7 @@
         <div class="relative aspect-1/1">
           <img src="/img/avatar-3.png" alt="" />
           <div
-            class="absolute bottom-0 right-0 grid w-12 h-12 text-gray-900 transition-colors bg-white cursor-pointer place-items-center hover:bg-blue-600 hover:text-white"
+            class="grid absolute right-0 bottom-0 place-items-center w-12 h-12 text-gray-900 bg-white transition-colors cursor-pointer hover:bg-blue-600 hover:text-white"
           >
             <PlayIcon class="w-3 h-3 fill-current" />
           </div>
